@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lightbox</title>
+	<link rel="stylesheet" href="lightbox.css">
+</head>
+<body>
+	<h1>This is a simple lightbox.</h1>
+	<p>Just using a little bit of Javascript and Css.</p>
+
+	<h2>This is the markup : </h2>
+	<pre>
+		<code>
+&lt;div id=&quot;Lightbox&quot;&gt;
+	&lt;img src=&quot;&quot;&gt;
+&lt;/div&gt;
+		</code>
+	</pre>
+	<p>You have to put it somewhere in your html.</p>
+	<p>Make sure you have no other fixed element over z-index 1000 or change this value in <i>lightbox.css</i></p>
+	
+	<h2>And this is how you have to wrap your images :</h2>
+	<pre>
+		<code>
+&lt;div id=&quot;Lightbox&quot;&gt;
+	&lt;a class=&quot;lightbox&quot; href=&quot;dog.jpg&quot;&gt;
+		&lt;img src=&quot;dog.jpg&quot; alt=&quot;Your alt attribute&quot;&gt;
+	&lt;/a&gt;
+&lt;/div&gt;
+		</code>
+	</pre>
+
+	<h2>This is a example : </h2>
+
+	<a class="lightbox" href="dog.jpg">
+		<img src="dog.jpg" alt="Your alt attribute">
+	</a>
+
+	<h2>Do not forget :</h2>
+	<p>To link as usual <code>lightbox.css</code> <code>and lightbox.js</code></p>
+
+	<div id="Lightbox">
+		<img src="">
+	</div>
+</div>
+<script src="lightbox.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+#Lightbox {
+  border:1px dashed blue;
+  background-color: #EFEFEF;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 1000;
+  height:100vh;
+  display: none;
+  overflow-y:scroll;
+  align-items: center;
+  justify-content: center; }
+  #Lightbox.opened {
+    display: flex; }
+  #Lightbox img {
+    width: 100%;
+    display:block;
+    height: auto; }
